@@ -1,0 +1,15 @@
+.driver_my_profile_tbl, .driver_my_profile_td, .driver_my_profile_th{
+    border: 1px solid black;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.driver_my_profile_th{
+    width: auto;
+    padding: 12px;
+}
+
+.driver_my_profile_td{
+    width: auto;
+    padding: 12px;
+}

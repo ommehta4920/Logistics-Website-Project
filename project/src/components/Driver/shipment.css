@@ -1,0 +1,49 @@
+.page_title{
+    margin-left: 24vw;
+    margin-top: 8vh;
+}
+
+.page_title p{
+    color: #25396f;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    margin-bottom: 1px;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.shipment_table{
+    width: 70%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 24%;
+    margin-right: 6%;
+    margin-top: 1%;
+}
+
+.shipment_table .searchbar{
+    width: 98%;
+    margin: 20px 1% 20px 1%;    
+}
+
+.shipment_table .searchbar #search_shipment{
+    font-size: 18px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    height: auto;
+    padding: 15px 12px;
+    width: 100%;
+}
+
+.shipment_table .shipment_details {
+    width: 98%;
+    /* border: 1px solid red; */
+    margin: 0px 1% 20px 1%;
+    height: auto;
+}

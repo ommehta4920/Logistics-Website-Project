@@ -1,0 +1,99 @@
+/* form .form_content{
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    border: 1px solid blue;
+} */
+
+form label{
+    color: #999;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 10px 0px 5px 5px;
+}
+
+form .txtbox{
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    margin-bottom: 0px !important;
+    height: auto;
+    padding: 15px 12px;
+}
+
+form .txtbox::placeholder{
+    color: #999;
+    letter-spacing: 1px;
+}
+
+form .box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form .box .content{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-top: 15px;
+}
+
+form .box .content textarea{
+    width: 208%;
+    height: 100px;
+    resize: none;
+}
+
+form button{
+    margin-top: 15px;
+    width: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #016db6;
+    border: 1px solid #016db6;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+form button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    background: #286090;
+    border: 1px solid #286090;
+} 
+
+.body_container .form_box .form .form_end{
+    margin-top: 20px;
+}
+
+.body_container .form_box .form .form_end h3{
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+}
+
+.body_container .form_box .form .form_end p{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 100;
+    color: #777;
+    letter-spacing: 0.5px;
+}
+
+.body_container .form_box .form .form_end p .link{
+    text-decoration: none;
+    color: #337ab7;
+    transition: 0.5s ease-in-out;
+}
+
+.body_container .form_box .form .form_end p .link:hover{
+    text-decoration: 1px double underline;
+}

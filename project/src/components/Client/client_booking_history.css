@@ -1,0 +1,74 @@
+.booking_history{
+    height: auto;
+}
+
+.client_bookingh_banner{
+    height: 270px;
+    width: 100%;
+    background-image: url("/images/login_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.client_bookingh_banner .client_bookingh_banner_overlay{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(40, 96, 144, 0.9);
+}
+
+.client_bookingh_banner .client_bookingh_banner_overlay .client_bookingh_title{
+    width: 100%;
+    max-height: 270px;
+    padding: 70px 0 0 150px;
+}
+
+.client_bookingh_banner .client_bookingh_banner_overlay .client_bookingh_title h3{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.client_bookingh_banner .client_bookingh_banner_overlay .client_bookingh_title h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}   
+
+.bookingh_body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff !important; 
+}
+
+.bookingh_body .bookingh_left_body{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0;
+    padding: 70px 10px 0 10px;
+}
+
+.bookingh_body .bookingh_left_body .bookingh_table{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.bookingh_body .bookingh_right_body{
+    width: 25%;
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookingh_body .bookingh_right_body img{
+    width: 100%;
+}

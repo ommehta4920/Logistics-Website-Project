@@ -1,0 +1,132 @@
+.vehicle{
+    height: auto;
+}
+
+.vehicle_banner{
+    height: 270px;
+    width: 100%;
+    background-image: url("/images/login_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vehicle_banner .vehicle_banner_overlay{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(40, 96, 144, 0.9);
+}
+
+.vehicle_title{
+    width: 100%;
+    max-height: 270px;
+    padding: 70px 0 0 150px;
+}
+
+.vehicle_title h3{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.vehicle_title h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+.visitor_vehicle_table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.visitor_vehicle_table .visitor_vehicle_box{
+    height: auto;
+    width: 100%;
+}
+
+.visitor_vehicle_box .visitor_vehicle_row{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.visitor_vehicle_row:hover img{
+    height: 270px;
+}
+
+.visitor_vehicle_row:hover .visitor_vehicle_content h2{
+    color: white;
+}
+
+.visitor_vehicle_row:hover .visitor_vehicle_content p{
+    color: white;
+}
+
+.visitor_vehicle_row:hover .visitor_vehicle_content p span{
+    color: rgb(40, 96, 144, 0.9);
+    text-shadow: 0px 1px 1px  rgb(40, 96, 144, 0.9);
+}
+
+.visitor_vehicle_row:hover .visitor_vehicle_content{
+    background-color: #262F36;
+}
+
+.visitor_vehicle_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitor_vehicle_img img{
+    height: 200px;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+.visitor_vehicle_content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EAEAEA;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.visitor_vehicle_content h2{
+    text-transform: uppercase;
+    color: rgb(40, 96, 144, 0.9);
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.visitor_vehicle_content p{
+    margin: 15px 60px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(40, 96, 144, 0.9);
+}
+
+.visitor_vehicle_content p span{
+    color: #262F36;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 5px;
+}

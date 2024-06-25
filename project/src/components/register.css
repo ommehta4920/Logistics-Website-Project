@@ -1,0 +1,104 @@
+.body_container{
+    height: auto;
+}
+ 
+.banner{
+    height: 270px;
+    width: 100%;
+    background-image: url("images/login_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner .banner_overlay{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(40, 96, 144, 0.9);
+}
+
+.banner .banner_overlay .title{
+    width: 100%;
+    max-height: 270px;
+    padding: 5% 0 0 12%;
+}
+
+.banner .banner_overlay .title h3{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.banner .banner_overlay .title h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+.body_container .form_box{
+    background-color: #EAEAEA;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_container .form_box .form{
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 0 3px #eee;
+    padding: 30px 50px 30px 50px;
+    width: 50%;
+    /* margin-left: 28%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body_container .form_box .form .box_header{
+    border-bottom: 1px solid #dcdcdc;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.body_container .form_box .form .box_header h2{
+    text-transform: capitalize;
+    font-family: serif;
+    font-size: 24px;
+    color: #323232;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.body_container .form_box .form_content .user_select{
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 20px;
+}
+
+.body_container .form_box .form_content .user_select .btn_user{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn_active{
+    background-color: #016db6;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.btn_inactive{
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid #ccc;
+}

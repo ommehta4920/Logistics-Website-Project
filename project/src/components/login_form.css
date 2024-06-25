@@ -1,0 +1,37 @@
+form label{
+    color: #999;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 10px 0px 5px 10px;
+}
+
+form .txtbox{
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    margin-bottom: 0px;
+    height: auto;
+    padding: 15px 12px;
+    /* width: 208%; */
+}
+
+form .txtbox::placeholder{
+    color: #999;
+    letter-spacing: 1px;
+}
+
+form .form_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form .form_container .content{
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    margin-top: 15px;
+}

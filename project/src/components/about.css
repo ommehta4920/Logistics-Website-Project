@@ -1,0 +1,208 @@
+.visitor{
+    height: auto;
+}
+
+.visitor_banner{
+    height: 270px;
+    width: 100%;
+    background-image: url("/images/login_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.visitor_banner .visitor_banner_overlay{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(40, 96, 144, 0.9);
+}
+
+.visitor_banner .visitor_banner_overlay .visitor_title{
+    width: 100%;
+    max-height: 270px;
+    padding: 70px 0 0 150px;
+}
+
+.visitor_banner .visitor_banner_overlay .visitor_title h3{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.visitor_banner .visitor_banner_overlay .visitor_title h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+.visitor_about{
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff !important;
+}
+
+.visitor_about .visitor_about_left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    padding: 25px 10px 0 80px;
+    /* border: 1px solid green; */
+}
+
+.visitor_about .visitor_about_left .visitor_about_title{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.visitor_about .visitor_about_left .visitor_about_title h1{
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 46px;
+    text-transform: capitalize;
+}
+
+.visitor_about .visitor_about_left .vistior_about_content p{
+    text-align: left;
+    line-height: 2em;
+    font-size: 16px;
+    color: #777;
+}
+
+.visitor_about .visitor_about_right{
+    width: 40%;
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitor_about .visitor_about_right img{
+    height: 100%;
+    width: 100%;
+}
+
+.visitor_about_more{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA !important;
+}
+
+.visitor_about_more .visitor_about_more_left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 45px 25px;
+}
+
+.visitor_about_more .visitor_about_more_left .visitor_about_more_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.visitor_about_more .visitor_about_more_left .visitor_about_more_title h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: cursive;
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+}
+
+.visitor_about_more .visitor_about_more_left .visitor_about_more_title h1{
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+.visitor_about_more .visitor_about_more_left .visitor_about_more_content p{
+    text-align: center;
+    line-height: 1.6em;
+    font-size: 16px;
+    color: #777;   
+}
+
+.visitor_about_more .visitor_about_more_left .visitor_about_more_content .visitor_about_services{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.visitor_about_more .visitor_about_more_left .visitor_about_more_content .visitor_about_services .visitor_about_service{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.visitor_about_service .visitor_services_left{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 65px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.visitor_about_service:hover .visitor_services_left,
+.visitor_about_service:hover .visitor_services_right h2{
+    color: #016DB6;
+}
+
+.visitor_about_service .visitor_services_right{
+    width: 80%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+}
+
+.visitor_about_service .visitor_services_right h2{
+    font-size: 24px;
+    margin: 10px 0px;
+    width: 100%;
+    text-align: left;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.visitor_about_service .visitor_services_right p{
+    text-align: left;
+    /* text-align-last: left; */
+    line-height: 1.6em;
+    color: #777;
+    margin: 10px 0px;
+    width: 90%;
+}

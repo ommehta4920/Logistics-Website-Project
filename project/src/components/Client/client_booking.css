@@ -1,0 +1,146 @@
+.booking{
+    height: auto;
+}
+
+.client_booking_banner{
+    height: 270px;
+    width: 100%;
+    background-image: url("/images/login_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.client_booking_banner .client_booking_banner_overlay{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(40, 96, 144, 0.9);
+}
+
+.client_booking_banner .client_booking_banner_overlay .client_booking_title{
+    width: 100%;
+    max-height: 270px;
+    padding: 70px 0 0 150px;
+}
+
+.client_booking_banner .client_booking_banner_overlay .client_booking_title h3{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.client_booking_banner .client_booking_banner_overlay .client_booking_title h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+.client_booking_body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff !important;
+}
+
+.client_booking_body .client_booking_left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0;
+    padding: 70px 10px 0 80px;
+}
+
+.client_booking_body .client_booking_left .client_booking_left_title{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.client_booking_body .client_booking_left .client_booking_left_title h1{
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.client_booking_body .client_booking_left .client_booking_left_content p{
+    text-align: left;
+    line-height: 2em;
+    font-size: 16px;
+    color: #777;
+}
+
+.client_booking_right{
+    width: 40%;
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client_booking_right img{
+    width: 70%;
+}
+
+.client_booking_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.client_booking_form .client_booking_form_box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.client_booking_form .client_booking_form_box .client_booking_form_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.client_booking_rent{
+    margin-top: 15px;
+}
+
+.client_booking_rent span{
+    color: #016db6;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.payment_radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.payment_radio input{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.payment_radio label{
+    margin-left: 5px;
+}
+
+.client_booking_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

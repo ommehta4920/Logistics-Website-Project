@@ -1,0 +1,27 @@
+.titlebar{
+    /* width: auto; */
+    width: 100vw;
+    height: 7vh;
+    background: #fff;
+    /* box-shadow: 0 3px 0px -1px rgba(0, 0, 0, 0.1); */
+    border-bottom: 1px solid black !important;
+    position: sticky;
+}
+.titlebar .box{
+    height: 100%;
+    width: 100%;
+}
+
+.titlebar .box h2{
+    margin: 1.2% 4% 0 0;
+    float: right;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+
+.titlebar .box h2 span{
+    color: #25396f;
+    font-weight: 700;
+}

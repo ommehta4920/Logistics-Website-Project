@@ -1,0 +1,118 @@
+.page-container{
+    display: flex;
+    width: auto;
+    height: auto;
+    background: #e2ecfb;
+}
+
+.page-container .right .main-content{
+    width: 80.9vw;
+    height: calc(100% - 16vh);
+    min-height: calc(100vh - 7vh);
+    margin: 4%;
+    margin-left: 18vw;
+    margin-top: 14vh;
+}
+
+.page-container .right .main-content .title{
+    color: #25396f;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.page-container .main-content .body{
+    width: 88%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.main-content .body .searchbar{
+    width: 98%;
+    margin: 20px 1% 20px 1%;
+}
+
+.main-content .body .searchbar #search_state{
+    font-size: 18px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    height: auto;
+    padding: 15px 12px;
+    width: 100%;
+}
+
+.main-content .body .table_container{
+    width: 98%;
+    margin: 0px 1% 20px 1%;
+    height: auto;
+}
+
+.main-content .body .btn_box{
+    width: 98%;
+    margin: 0px 1% 20px 1%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+}
+
+.main-content .body .btn_box .btn_insert{
+    width: auto;
+    margin-right: 5%;
+    background-color: #016db6;
+    border: 1px solid #016db6;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.main-content .body .btn_box .btn_insert:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    background: #286090;
+    border: 1px solid #286090;
+} 
+
+.admin_tbl, .admin_tbl_th, .admin_tbl_td{
+    border: 1px solid black;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.admin_tbl_th{
+    width: auto;
+    padding: 12px;
+}
+
+.admin_tbl_td{
+    width: auto;
+    padding: 12px;
+}
+
+.admin_tbl_td button{
+    width: auto;
+    font-size: 18px;
+    transition: ease-in-out;
+    transition-duration: 0.5ms;
+}
+
+.admin_tbl_td button:hover{
+    cursor: pointer;
+    box-shadow: 1px 4px 2px black;
+    text-shadow: 1px 1px 1px white;
+}

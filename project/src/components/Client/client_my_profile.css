@@ -1,0 +1,15 @@
+.client_my_profile_tbl,.client_my_profile_th,.client_my_profile_td{
+    border: 1px solid black;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.client_my_profile_th{
+    width: auto;
+    padding: 12px;
+}
+
+.client_my_profile_td{
+    width: auto;
+    padding: 12px;
+}
