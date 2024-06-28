@@ -18,7 +18,6 @@ const con=mysql.createConnection({
         user: "root",
         host: "localhost",
         password: "",
-        port:"3307",
         database: "swift_db",
     }
 )
