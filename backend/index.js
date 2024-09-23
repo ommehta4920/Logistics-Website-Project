@@ -13,6 +13,7 @@ app.use(cors({
     method:["POST","GET"],
     credentials: true
 }));
+//Database configuration.
 app.use(express.static('uploads'));
 const con=mysql.createConnection({
         user: "root",
